@@ -30,9 +30,6 @@
              </div>
    	    <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>Menu
-            <!--<span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>-->
         </button>
 	    </div>
 		</div>
@@ -45,12 +42,15 @@
 		    	$tw = get_option('twitter_url');
 				$hide_tw = get_option('hide_twitter');				 
 		    	?>
-		    	<?php $ld = get_option('linkedin_url');?>
+		    	<?php $yt = get_option('youtube_url');?>
 		    	<?php if($fb) { ?>
 		      <li><a href="<?php echo $fb; ?>" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 		      <?php }  ?>
 		      <?php if($tw && !$hide_tw) { ?>
 		      <li><a href="<?php echo $tw; ?>" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+		      <?php }  ?>
+		      <?php if($fb) { ?>
+		      <li><a href="<?php echo $yt; ?>" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
 		      <?php }  ?>
 		    </ul>
 		  </div>
