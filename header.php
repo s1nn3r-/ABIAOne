@@ -49,7 +49,7 @@
 		      <?php if($tw && !$hide_tw) { ?>
 		      <li><a href="<?php echo $tw; ?>" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 		      <?php }  ?>
-		      <?php if($fb) { ?>
+		      <?php if($yt) { ?>
 		      <li><a href="<?php echo $yt; ?>" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
 		      <?php }  ?>
 		    </ul>
