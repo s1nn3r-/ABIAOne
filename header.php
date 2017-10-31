@@ -23,7 +23,7 @@
                 	<img src="<?php echo wp_get_attachment_url( get_option( 'logo_file' )); ?>">
                  </a>
              <?php } else { ?>
-               <a href="<?php echo site_url();?>" class="navbar-brand"><?php echo get_bloginfo( 'name' ); ?></a>
+              <a href="<?php echo site_url();?>" class="navbar-brand"><?php echo get_bloginfo( 'name' ); ?></a>
              <?php } ?>
 			 <div class="pull-right">
 	          <a href="tel:+1<?php echo get_option('phone'); ?>"><i class="fa fa-phone-square" aria-hidden="true"></i> <?php echo get_option('phone'); ?></a>
