@@ -10,7 +10,7 @@
 			if ( has_post_thumbnail(get_the_ID() ) ) {
 				echo get_the_post_thumbnail( get_the_ID(), 'my_custom_size', array( 'class' => 'aligncenter img-responsive' ) );
 			}else {				
-				?><img src="<?php echo get_template_directory_uri(); ?>/images/Featured-900x200.jpg" class="aligncenter img-responsive" /><?php
+				?><img src="<?php echo get_template_directory_uri(); ?>/images/pool_table_movers-900x200.jpg" class="aligncenter img-responsive" alt="professional pool table movers" /><?php
 			}
 		}
 			the_content();
